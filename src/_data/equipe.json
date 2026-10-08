@@ -1,0 +1,70 @@
+{
+  "titre": "La CFA Liège",
+  "intro": "La CFA Liège organise les désignations, la formation, l’accompagnement et le suivi des arbitres de la province. Elle assure également le recrutement, la communication et le développement des jeunes talents.",
+  "membres": [
+    {
+      "nom": "Pierre Gilis",
+      "fonction": "Président",
+      "niveau": "arbitre en BNXT et en FIBA",
+      "photo": "/images/pierre.png",
+      "description": "Le président pilote la commission et assure le lien avec les différentes instances provinciales et régionales.",
+      "email": "gilispr.cfa@gmail.com"
+    },
+    {
+      "nom": "Alexis Poddighe",
+      "fonction": "Secrétaire",
+      "niveau": "arbitre en TDM2",
+      "photo": "/images/alexis.png",
+      "description": "Organise les réunions, rédige les procès-verbaux et assure la gestion administrative des dossiers.",
+      "email": "alexispoddighe.cfa@gmail.com"
+    },
+    {
+      "nom": "Gregorio Vinci",
+      "fonction": "Convocateur seniors",
+      "niveau": "arbitre en TDM2",
+      "photo": "/images/gregorio.png",
+      "description": "Organise les désignations des arbitres seniors pour les différentes rencontres de la province.",
+      "email": "gregoriovinci44@gmail.com"
+    },
+    {
+      "nom": "Robin Mélot",
+      "fonction": "Convocateur jeunes régionaux et coordinateur projet jeunes",
+      "niveau": "arbitre en TDM2",
+      "photo": "/images/robin.png",
+      "description": "Désigne les arbitres pour les rencontres de jeunes régionaux et assure le suivi de la progression des jeunes arbitres.",
+      "email": "robinmelot.cfa@gmail.com"
+    },
+    {
+      "nom": "Vincent Putz",
+      "fonction": "Convocateur jeunes provinciaux",
+      "niveau": "",
+      "photo": "/images/vincent.png",
+      "description": "Désigne les arbitres sur les rencontres en jeunes provinciaux.",
+      "email": "vincentputz.cfa@gmail.com"
+    },
+    {
+      "nom": "Alexandre Depireux",
+      "fonction": "Coordinateur évaluations seniors",
+      "niveau": "arbitre en TDM1",
+      "photo": "/images/alexandre.png",
+      "description": "Désigne les formateurs et est responsable de la progression des arbitres seniors.",
+      "email": "alexandre.depireux.cfa@gmail.com"
+    },
+    {
+      "nom": "Benjamin Rigotti",
+      "fonction": "Coordinateur Formation & Initiation",
+      "niveau": "arbitre en BNXT",
+      "photo": "/images/benjamin.png",
+      "description": "Fait découvrir l’arbitrage via des initiations, dispense la formation pratique aux nouveaux candidats et les accompagne dans leurs premières démarches.",
+      "email": "benjamin.rigotti.cfa@gmail.com"
+    },
+    {
+      "nom": "Adin Gojak",
+      "fonction": "Communication & KPI's",
+      "niveau": "arbitre en TDM1",
+      "photo": "/images/adin.png",
+      "description": "Assure la communication de la commission et s'occupe des différents indicateurs de la CFA.",
+      "email": "adingojak.cfa@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+# Configuration du back office (Pages CMS — https://app.pagescms.org)
+# Chaque bloc ci-dessous = une rubrique dans le menu de gauche du back office.
+
+media:
+  - name: images
+    label: Photos
+    input: src/images
+    output: /images
+    categories: [image]
+    rename: safe
+  - name: documents
+    label: Documents (PDF)
+    input: src/documents
+    output: /documents
+    categories: [document]
+    rename: safe
+
+settings:
+  commit:
+    templates:
+      update: "Modification de {path} via le back office"
+      create: "Ajout de {path} via le back office"
+
+content:
+  # ------------------------------------------------------------------
+  - name: general
+    label: "Accueil & contact"
+    type: file
+    path: src/_data/general.json
+    format: json
+    fields:
+      - name: accroche
+        label: Petite ligne orange au-dessus du grand titre
+        type: string
+      - name: titre_ligne_1
+        label: "Grand titre — ligne 1"
+        type: string
+        description: "Ex. : Prends"
+      - name: titre_ligne_2
+        label: "Grand titre — début de la ligne 2"
+        type: string
+        description: "Ex. : le"
+      - name: titre_mot_orange
+        label: "Grand titre — mot en orange"
+        type: string
+        description: "Ex. : sifflet."
+      - name: sous_titre
+        label: Phrase sous le grand titre
+        type: text
+      - name: contact_titre
+        label: Titre de la rubrique Contact
+        type: string
+      - name: contact_intro
+        label: Texte d'introduction de la rubrique Contact
+        type: text
+      - name: contact
+        label: Coordonnées
+        type: object
+        fields:
+          - name: email
+            label: Adresse e-mail
+            type: string
+          - name: telephone
+            label: Téléphone
+            type: string
+            description: "Écris-le comme il doit s'afficher, ex. : +32 493 53 78 54"
+          - name: facebook
+            label: Lien de la page Facebook
+            type: string
+            description: Laisse vide pour masquer
+          - name: instagram
+            label: Lien du compte Instagram
+            type: string
+            description: Laisse vide pour masquer
+      - name: pied_de_page
+        label: Texte du bas de page
+        type: string
+      - name: titre_onglet
+        label: "Titre dans l'onglet du navigateur et sur Google"
+        type: string
+      - name: description_google
+        label: Description affichée sous le titre dans Google
+        type: text
+
+  # ------------------------------------------------------------------
+  - name: chiffres
+    label: Chiffres clés
+    type: file
+    path: src/_data/chiffres.json
+    format: json
+    fields:
+      - name: chiffres
+        label: Chiffres (bandeau blanc sous le grand titre)
+        type: object
+        list:
+          max: 4
+          collapsible:
+            collapsed: true
+            summary: "{nombre} — {texte}"
+        fields:
+          - name: nombre
+            label: Chiffre (en orange)
+            type: string
+            description: "Ex. : 14 ans"
+          - name: texte
+            label: Texte en dessous
+            type: string
+
+  # ------------------------------------------------------------------
+  - name: pourquoi
+    label: "01 · Pourquoi arbitrer"
+    type: file
+    path: src/_data/pourquoi.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Phrase d'introduction
+        type: text
+      - name: raisons
+        label: Les raisons
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titre}"
+        fields:
+          - name: icone
+            label: Petit dessin
+            type: select
+            options:
+              values:
+                - name: sifflet
+                  label: Sifflet
+                - name: terrain
+                  label: Terrain
+                - name: piece
+                  label: Pièce (argent)
+                - name: ticket
+                  label: Ticket (entrée)
+                - name: equipe
+                  label: Équipe (personnes)
+                - name: coeur
+                  label: Cœur
+                - name: etoile
+                  label: Étoile
+          - name: titre
+            label: Titre
+            type: string
+          - name: texte
+            label: Texte
+            type: text
+
+  # ------------------------------------------------------------------
+  - name: devenir
+    label: "02 · Devenir arbitre"
+    type: file
+    path: src/_data/devenir.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Phrase d'introduction
+        type: text
+      - name: etapes
+        label: Les étapes (numérotées automatiquement)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Étape {index} — {titre}"
+        fields:
+          - name: titre
+            label: Titre de l'étape
+            type: string
+          - name: texte
+            label: Texte
+            type: text
+          - name: points
+            label: Points avec une puce orange
+            type: string
+            list: true
+
+  # ------------------------------------------------------------------
+  - name: idees
+    label: "03 · Oui mais…"
+    type: file
+    path: src/_data/idees.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Phrase d'introduction
+        type: text
+      - name: questions
+        label: Les objections et leurs réponses
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "Oui mais… {question}"
+        fields:
+          - name: question
+            label: "Objection (suite de « Oui mais… »)"
+            type: string
+            description: "Ex. : je n'ai pas le temps."
+          - name: reponse
+            label: Réponse
+            type: text
+
+  # ------------------------------------------------------------------
+  - name: ressources
+    label: "04 · Ressources"
+    type: file
+    path: src/_data/ressources.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Phrase d'introduction
+        type: text
+      - name: ressources
+        label: Les cartes de ressources
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titre}"
+        fields:
+          - name: titre
+            label: Titre
+            type: string
+          - name: texte
+            label: Description
+            type: text
+          - name: liens
+            label: Liens
+            type: object
+            list: true
+            fields:
+              - name: texte
+                label: Texte du lien
+                type: string
+              - name: adresse
+                label: Adresse (commence par https://)
+                type: string
+
+  # ------------------------------------------------------------------
+  - name: equipe
+    label: "05 · L'équipe"
+    type: file
+    path: src/_data/equipe.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Texte d'introduction
+        type: text
+      - name: membres
+        label: Membres (l'ordre ici = l'ordre sur le site)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nom} — {fonction}"
+        fields:
+          - name: nom
+            label: Prénom et nom
+            type: string
+            required: true
+          - name: fonction
+            label: Fonction
+            type: string
+          - name: niveau
+            label: "Niveau d'arbitrage (facultatif)"
+            type: string
+            description: "Ex. : arbitre en TDM1 — s'affiche entre parenthèses au dos de la carte"
+          - name: photo
+            label: Photo
+            type: image
+            description: "Photo en format portrait ou carré de préférence"
+            options:
+              media: images
+          - name: description
+            label: Texte au dos de la carte
+            type: text
+          - name: email
+            label: Adresse e-mail
+            type: string
+
+  # ------------------------------------------------------------------
+  - name: reunions
+    label: "06 · Procès-verbaux"
+    type: file
+    path: src/_data/reunions.json
+    format: json
+    fields:
+      - name: titre
+        label: Titre de la rubrique
+        type: string
+      - name: intro
+        label: Phrase d'introduction
+        type: text
+      - name: pv
+        label: "Procès-verbaux (le plus récent en premier)"
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{titre}"
+        fields:
+          - name: titre
+            label: Titre
+            type: string
+            description: "Ex. : Réunion du 18 juin 2026"
+          - name: saison
+            label: Saison
+            type: string
+            description: "Ex. : 2025–2026"
+          - name: lien
+            label: Lien vers le PDF (sur cpliege.be)
+            type: string
+            description: "Copie l'adresse du PDF publié sur le site du CP Liège"
+          - name: fichier
+            label: "…ou envoie le PDF directement (remplace le lien)"
+            type: file
+            options:
+              media: documents
+      - name: note
+        label: Petite note sous la liste
+        type: string

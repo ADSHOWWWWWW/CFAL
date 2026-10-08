@@ -1,0 +1,26 @@
+{
+  "titre": "Pourquoi arbitrer ?",
+  "intro": "Quatre bonnes raisons d'enfiler la vareuse d'arbitre.",
+  "raisons": [
+    {
+      "icone": "sifflet",
+      "titre": "Reste dans le jeu",
+      "texte": "Vis ta passion sous un autre angle."
+    },
+    {
+      "icone": "terrain",
+      "titre": "Une école de la vie",
+      "texte": "Décide, garde ton sang-froid et prends tes responsabilités : des qualités qui te serviront dans la vie."
+    },
+    {
+      "icone": "piece",
+      "titre": "Un coup de pouce au quotidien",
+      "texte": "Une indemnité financière vous est versée pour chaque rencontre arbitrée."
+    },
+    {
+      "icone": "ticket",
+      "titre": "Accès gratuits aux rencontres",
+      "texte": "Ta carte d’arbitre te donne un accès gratuit aux rencontres jusqu’aux divisions nationales."
+    }
+  ]
+}

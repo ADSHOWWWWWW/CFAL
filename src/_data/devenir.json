@@ -1,0 +1,40 @@
+{
+  "titre": "Comment devenir arbitre ?",
+  "intro": "Un parcours clair et rapide, où tu es accompagné à chaque étape. Aucune expérience requise.",
+  "etapes": [
+    {
+      "titre": "Les conditions",
+      "texte": "Trois choses à réunir pour démarrer.",
+      "points": [
+        "Affilié·e et assuré·e à l'AWBB",
+        "Dès 14 ans accomplis"
+      ]
+    },
+    {
+      "titre": "Formation en ligne",
+      "texte": "Le cours e-learning, sur la plateforme Moodle, à ton rythme.",
+      "points": [
+        "6 à 8 h · modules ludiques",
+        "Examen QCM : 70 %, 3 essais",
+        "Coût du e-learning : 10 €"
+      ]
+    },
+    {
+      "titre": "Séance pratique",
+      "texte": "Elle valide ta formation, ici en province de Liège.",
+      "points": [
+        "Séance gratuite",
+        "Dates des sessions communiquées sur demande."
+      ]
+    },
+    {
+      "titre": "Sur le terrain",
+      "texte": "Tu deviens arbitre officiel·le.",
+      "points": [
+        "Carte officielle + entrée libre aux matchs",
+        "Défraiement & déplacements remboursés",
+        "Vareuse d'arbitre offerte"
+      ]
+    }
+  ]
+}

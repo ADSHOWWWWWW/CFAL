@@ -1,0 +1,20 @@
+{
+  "chiffres": [
+    {
+      "nombre": "14 ans",
+      "texte": "l'âge minimum pour débuter"
+    },
+    {
+      "nombre": "6–8 h",
+      "texte": "de formation en ligne"
+    },
+    {
+      "nombre": "3 h",
+      "texte": "de formation pratique"
+    },
+    {
+      "nombre": "10 €",
+      "texte": "prix de l'inscription à l'e-learning"
+    }
+  ]
+}

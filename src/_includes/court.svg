@@ -1,0 +1,18 @@
+<svg class="court-art" viewBox="0 0 420 520" fill="none" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+  <g class="court-lines" stroke-width="1.5">
+    <path d="M420 20 H120 V500 H420"/>
+    <path d="M420 260 H120"/>
+    <rect x="120" y="180" width="150" height="160"/>
+    <path d="M270 180 v160"/>
+    <circle cx="270" cy="260" r="52"/>
+  </g>
+  <path class="court-3pt" d="M120 60 H300 A210 210 0 0 1 300 460 H120" stroke-width="2.4"/>
+  <g class="hoop">
+    <line class="hoop-post" x1="120" y1="245" x2="120" y2="275" stroke-width="3"/>
+    <rect class="hoop-board" x="112" y="248" width="8" height="24" rx="2"/>
+  </g>
+  <g class="ball">
+    <circle class="ball-fill" cx="300" cy="130" r="34"/>
+    <path class="ball-seam" d="M266 130 h68 M300 96 v68 M276 106 a48 48 0 0 0 48 48 M324 106 a48 48 0 0 1 -48 48" stroke-width="1.6" fill="none"/>
+  </g>
+</svg>

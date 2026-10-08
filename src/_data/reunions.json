@@ -1,0 +1,27 @@
+{
+  "titre": "Procès-verbaux",
+  "intro": "Les comptes rendus de nos réunions, en accès libre.",
+  "note": "Les PV sont publiés après validation par la commission.",
+  "pv": [
+    {
+      "titre": "Réunion du 18 juin 2026",
+      "saison": "2025–2026",
+      "lien": "https://www.cpliege.be/Rapports/awcpcfa260618.pdf"
+    },
+    {
+      "titre": "Réunion du 30 avril 2026",
+      "saison": "2025–2026",
+      "lien": "https://www.cpliege.be/Rapports/awcpcfa260430.pdf"
+    },
+    {
+      "titre": "Réunion du 19 février 2026",
+      "saison": "2025–2026",
+      "lien": "https://www.cpliege.be/Rapports/awcpcfa260219.pdf"
+    },
+    {
+      "titre": "Réunion du 12 janvier 2026",
+      "saison": "2025–2026",
+      "lien": "https://www.cpliege.be/Rapports/awcpcfa260112.pdf"
+    }
+  ]
+}

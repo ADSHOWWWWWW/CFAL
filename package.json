@@ -1,0 +1,8 @@
+{
+  "name": "cfa-liege-site",
+  "private": true,
+  "description": "Site de la CFA Liège — contenu modifiable via Pages CMS",
+  "scripts": {
+    "build": "node build.js"
+  }
+}

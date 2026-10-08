@@ -1,0 +1,58 @@
+{
+  "titre": "Les bons outils",
+  "intro": "Tout ce dont un arbitre a besoin, réuni au même endroit.",
+  "ressources": [
+    {
+      "titre": "RefQuiz (Application)",
+      "texte": "Développée par Dilan Uludag, arbitre en TDM1, cette application vous permet d'apprendre et de tester vos connaissances sur le règlement. (Version sur base des règles et interprétations 2024)",
+      "liens": [
+        {
+          "texte": "Ouvrir l'application",
+          "adresse": "https://apps.apple.com/gh/app/refquiz/id6752226416"
+        }
+      ]
+    },
+    {
+      "titre": "Règlement et interprétations",
+      "texte": "Les documents officiels de la FIBA, toujours à portée de main. (2026)",
+      "liens": [
+        {
+          "texte": "Règlement officiel (2026)",
+          "adresse": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf"
+        },
+        {
+          "texte": "Interprétations officielles (2026)",
+          "adresse": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-interpretations-v1-0.pdf"
+        },
+        {
+          "texte": "Règlement officiel (2024)",
+          "adresse": "https://www.awbb.be/wp-content/uploads/2025/06/20240426_Reglement_Officiel_Basketball.pdf"
+        },
+        {
+          "texte": "Interprétations officielles (2024)",
+          "adresse": "https://www.awbb.be/wp-content/uploads/2025/06/20241001_Interpretations_Officielles-_FIBA.pdf"
+        }
+      ]
+    },
+    {
+      "titre": "CP Liège",
+      "texte": "Le Comité Provincial de Liège, dont dépend la CFA.",
+      "liens": [
+        {
+          "texte": "Visiter le site",
+          "adresse": "https://www.cpliege.be"
+        }
+      ]
+    },
+    {
+      "titre": "AWBB",
+      "texte": "L'Association Wallonie-Bruxelles de Basketball, la fédération.",
+      "liens": [
+        {
+          "texte": "awbb.be",
+          "adresse": "https://www.awbb.be"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "titre": "« Oui mais… »",
+  "intro": "Tu te poses encore des questions ? Voici nos réponses.",
+  "questions": [
+    {
+      "question": "je ne connais pas les règles.",
+      "reponse": "Ce n’est pas grave ! Tu es formé à partir de zéro et à ton rythme."
+    },
+    {
+      "question": "je vais me faire crier dessus.",
+      "reponse": "L’arbitrage est un sport d’équipe. Tu seras toujours accompagné d’un collègue, plus expérimenté à tes débuts."
+    },
+    {
+      "question": "je n'ai pas le temps.",
+      "reponse": "Tu indiques tes disponibilités et tu arbitres uniquement quand tu es disponible. À ton rythme."
+    },
+    {
+      "question": "je suis trop jeune pour ça.",
+      "reponse": "Il n’est jamais trop tôt (ni trop tard) pour commencer. Dès 14 ans, tu peux devenir arbitre officiel."
+    },
+    {
+      "question": "je joue encore au basket.",
+      "reponse": "Aucun problème. Nul doute que la pratique du basket fera de toi un meilleur arbitre."
+    }
+  ]
+}
