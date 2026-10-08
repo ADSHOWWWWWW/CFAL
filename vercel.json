@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node build.js",
+  "outputDirectory": "_site",
+  "installCommand": "echo 'Aucune installation nécessaire'"
+}
