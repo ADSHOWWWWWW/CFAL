@@ -30,14 +30,12 @@
       "nom": "Robin Mélot",
       "fonction": "Convocateur jeunes régionaux et coordinateur projet jeunes",
       "niveau": "arbitre en TDM2",
-      "photo": "/images/robin.png",
       "description": "Désigne les arbitres pour les rencontres de jeunes régionaux et assure le suivi de la progression des jeunes arbitres.",
       "email": "robinmelot.cfa@gmail.com"
     },
     {
       "nom": "Vincent Putz",
       "fonction": "Convocateur jeunes provinciaux",
-      "niveau": "",
       "photo": "/images/vincent.png",
       "description": "Désigne les arbitres sur les rencontres en jeunes provinciaux.",
       "email": "vincentputz.cfa@gmail.com"
@@ -46,7 +44,6 @@
       "nom": "Alexandre Depireux",
       "fonction": "Coordinateur évaluations seniors",
       "niveau": "arbitre en TDM1",
-      "photo": "/images/alexandre.png",
       "description": "Désigne les formateurs et est responsable de la progression des arbitres seniors.",
       "email": "alexandre.depireux.cfa@gmail.com"
     },
@@ -62,7 +59,6 @@
       "nom": "Adin Gojak",
       "fonction": "Communication & KPI's",
       "niveau": "arbitre en TDM1",
-      "photo": "/images/adin.png",
       "description": "Assure la communication de la commission et s'occupe des différents indicateurs de la CFA.",
       "email": "adingojak.cfa@gmail.com"
     }
