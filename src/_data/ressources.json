@@ -18,19 +18,11 @@
       "liens": [
         {
           "texte": "Règlement officiel (2026)",
-          "adresse": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-v1-1.pdf"
+          "adresse": "https://api.ffbb.app/assets/313f308a-7b3b-4116-b969-882eb9c1d3ea?fs=5201041"
         },
         {
           "texte": "Interprétations officielles (2026)",
-          "adresse": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2026-interpretations-v1-0.pdf"
-        },
-        {
-          "texte": "Règlement officiel (2024)",
-          "adresse": "https://www.awbb.be/wp-content/uploads/2025/06/20240426_Reglement_Officiel_Basketball.pdf"
-        },
-        {
-          "texte": "Interprétations officielles (2024)",
-          "adresse": "https://www.awbb.be/wp-content/uploads/2025/06/20241001_Interpretations_Officielles-_FIBA.pdf"
+          "adresse": "https://api.ffbb.app/assets/89459b32-cc92-422f-b4bd-1f6f14a559c6?fs=2332662"
         }
       ]
     },
