@@ -1,5 +1,13 @@
 {
   "buildCommand": "node build.js",
   "outputDirectory": "_site",
-  "installCommand": "echo 'Aucune installation nécessaire'"
+  "installCommand": "echo 'Aucune installation nécessaire'",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, must-revalidate" }
+      ]
+    }
+  ]
 }

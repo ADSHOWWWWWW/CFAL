@@ -20,8 +20,18 @@ const esc = (v) => String(v ?? "")
   .replace(/ ([?!:;»])/g, "&nbsp;$1").replace(/« /g, "«&nbsp;");
 const list = (v) => (Array.isArray(v) ? v.filter((x) => x != null && x !== "") : []);
 const num = (i) => String(i + 1).padStart(2, "0");
-// "/images/photo.png" -> "images/photo.png" : fonctionne quelle que soit l'adresse du site
-const chemin = (v) => { v = String(v || "").trim(); return v.startsWith("/") && !v.startsWith("//") ? v.slice(1) : v; };
+// "/images/photo.png" -> "images/photo.png?v=1a2b3c4d" : fonctionne quelle que soit l'adresse du site.
+// Le "?v=…" change dès que le fichier change : une photo remplacée s'affiche tout de suite chez les visiteurs.
+const crypto = require("crypto");
+const chemin = (v) => {
+  v = String(v || "").trim();
+  if (!v.startsWith("/") || v.startsWith("//")) return v;
+  const rel = v.slice(1);
+  const fichier = path.join(SRC, decodeURIComponent(rel.split("?")[0]));
+  if (!fs.existsSync(fichier)) return rel;
+  const h = crypto.createHash("md5").update(fs.readFileSync(fichier)).digest("hex").slice(0, 8);
+  return rel + (rel.includes("?") ? "&" : "?") + "v=" + h;
+};
 const tel = (v) => String(v || "").replace(/[^\d+]/g, "");
 const ifv = (cond, html) => (cond ? html : "");
 
